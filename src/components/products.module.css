@@ -1,5 +1,5 @@
 .page {
-  background-color: #8093a8;
+  background-color: #d9e3ec;
   padding: 1em;
   width: 90vw;
   max-width: 1170px;
@@ -8,7 +8,7 @@
 
 .page span {
   margin-left: 2rem;
-  color: gray;
+  color: slategray;
 }
 
 .page article {
