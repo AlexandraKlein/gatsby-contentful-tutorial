@@ -36,7 +36,14 @@ a {
 @media screen and (min-width: 768px) {
   .single-product {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     column-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .single-product {
+    grid-template-columns: 2fr 1fr;
   }
 }

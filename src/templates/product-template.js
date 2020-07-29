@@ -20,9 +20,7 @@ const ProductTemplate = ({
         <h1>Single Product: {title}</h1>
       </div>
       <section className="single-product">
-        <article>
-          <Image fluid={fluid} alt={title} />
-        </article>
+        <Image fluid={fluid} alt={title} />
         <article>
           <h1>{title}</h1>
           <h3>${price}</h3>
